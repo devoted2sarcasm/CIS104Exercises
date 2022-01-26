@@ -7,9 +7,9 @@ try:
     try:
         fr = float(rate)
         if fh > 40.00 :
-          ot = fh - 40
-          otp = fr * 1.5
-          gross = ((fh - ot) * fr) + (ot * otp)
+            ot = fh - 40
+            otp = fr * 1.5
+            gross = ((fh - ot) * fr) + (ot * otp)
         else : gross = fh * fr
         print ("Pay:", gross)
     except:

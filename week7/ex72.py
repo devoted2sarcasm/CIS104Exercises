@@ -13,4 +13,4 @@ for line in fhand:
         spam = line[19:]
         fspam = float(spam)
         total = total + fspam
-print('Average spam confidence: ', (total/count))
+print('Average spam confidence:', (total/count))

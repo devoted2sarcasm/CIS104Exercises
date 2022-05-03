@@ -17,7 +17,9 @@ email_lst = list()  #16-18 create an empty list and populates it with the dictio
 for k,v in email_adresses.items():
     email_lst.append((v,k))
 
+#sorts list descending by value
 email_lst = sorted(email_lst, reverse=True)
 
+#print first item and value in dictionary, which has been sorted, so this value should be the email that sent the most
 for k,v in email_lst[:1]:
     print(v,k)
